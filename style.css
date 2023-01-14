@@ -1,0 +1,140 @@
+/* General Css */
+body {
+    font-family: 'Work Sans';
+    font-style: normal;
+    margin: 0 auto;
+}
+
+/* Uppera part */
+.upper-part{
+    background:rgba(255, 144, 14, 0.1);
+    padding-top: 40px;
+}
+
+/* Navbar Css */
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+    
+}
+
+.g3 a {
+    text-decoration: none;
+    color: black;
+    font-size: 35px;
+    font-weight: 700;
+
+}
+.anchor-tag a {
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+}
+
+/* Banner Section Css */
+.banner-section {
+    text-align: center;
+}
+.brand-new-group h1 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.brand-new-group p {
+    font-size: 12px;
+    color: gray;
+}
+.brand-new-group button {
+    width: 180px;
+    height: 64px;
+    background: #FF900E;
+    border-radius: 8px;
+    border: none;
+    color: #FFFF;
+    font-size: 20px;
+    font-weight: 600;
+}
+.banner-img img{
+    margin-top: 30px;
+    width: 65%;
+    margin-bottom: 30px;
+   
+}
+/* Site Features Css */
+
+.features{
+    display: flex;
+    align-items: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 50px;
+}
+.feature-content{
+    margin-left: 70px;
+}
+.feature-content p {
+    font-size: 12px;
+    color: gray;
+   
+}
+.feature-content button {
+    width: 180px;
+    height: 64px;
+    background: #FF900E;
+    border-radius: 8px;
+    border: none;
+    color: #FFFF;
+    font-size: 20px;
+    font-weight: 600;
+}
+.decorate-title{
+    color: gray;
+}
+.decorate-title2{
+    color: rgba(255, 144, 14, 1)
+}
+.team-member{
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+    grid-gap: 10px;
+}
+/* .team-member img{
+    padding: 5px;
+} */
+
+
+
+/* Media Query */
+/* Mobile Device */
+@media screen and (min-width:200px) and (max-width:600px) {
+    .header {
+        display: grid;
+        justify-items: center; 
+        row-gap: 10px;
+        flex-wrap: wrap;
+        overflow: hidden;
+    }
+    .banner-img img{  
+        width: 100%;   
+       
+    }
+    .banner-section {
+        text-align: center;
+    }
+    .features{
+        display: grid;
+        grid-template-columns: repeat(1 ,1fr);
+        grid-gap:10px ;
+    }
+    .team-member{
+        display: grid;
+        grid-template-columns: repeat(1 ,1fr);
+        grid-gap:10px ;
+    }
+    .team-member img{
+        width: 100%;
+    }
+
+}
