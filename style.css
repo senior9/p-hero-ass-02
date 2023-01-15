@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* General Css */
 body {
     font-family: 'Work Sans';
@@ -338,3 +339,240 @@ body {
         padding: 5px;
     }
 }
+=======
+/* General Css */
+body {
+    font-family: 'Work Sans';
+    font-style: normal;
+    margin: 0 auto;
+}
+
+/* Uppera part */
+.upper-part{
+    background:rgba(255, 144, 14, 0.1);
+    padding-top: 40px;
+}
+
+/* Navbar Css */
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+    
+}
+
+.g3 a {
+    text-decoration: none;
+    color: black;
+    font-size: 35px;
+    font-weight: 700;
+
+}
+.anchor-tag a {
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+}
+
+/* Banner Section Css */
+.banner-section {
+    text-align: center;
+}
+.brand-new-group h1 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.brand-new-group p {
+    font-size: 12px;
+    color: gray;
+}
+.brand-new-group button {
+    width: 180px;
+    height: 64px;
+    background: #FF900E;
+    border-radius: 8px;
+    border: none;
+    color: #FFFF;
+    font-size: 20px;
+    font-weight: 600;
+}
+.banner-img img{
+    margin-top: 30px;
+    width: 65%;
+    margin-bottom: 30px;
+   
+}
+/* Site Features Css */
+
+.features{
+    display: flex;
+    align-items: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 50px;
+}
+.feature-content{
+    margin-left: 70px;
+}
+.feature-content p {
+    font-size: 12px;
+    color: gray;
+   
+}
+.feature-content button {
+    width: 180px;
+    height: 64px;
+    background: #FF900E;
+    border-radius: 8px;
+    border: none;
+    color: #FFFF;
+    font-size: 20px;
+    font-weight: 600;
+}
+.decorate-title{
+    color: gray;
+}
+.decorate-title2{
+    color: rgba(255, 144, 14, 1)
+}
+.team-member{
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+    grid-gap: 10px;
+}
+
+/* Site Feauture part Two */
+.feature-part-two{
+    margin-top: 100px;
+    margin-left: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 110px;
+}
+.feature-part-img{
+    display: flex;
+    flex-direction: column;
+}
+.feature-part-img img{
+    height: 85%;
+}
+.overlay-button button{
+    width: 342px;
+    height: 200px;
+    position: absolute;
+    margin-top: -240px;
+    margin-left: -50px;
+    background: #FF900E;
+    border-radius: 8px;
+    border: none;
+}
+.year{
+    font-weight: 700;
+    font-size: 50px;
+    color: #FFFFFF;
+}
+.experience{
+    font-weight: 500;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.feature-part-two p{
+    font-size: 12px;
+    color: gray;
+}
+
+ /* Loving feauture part */
+.loving-feature{
+    display: flex;
+    align-items: center;
+}
+.loving-feature-div h1{
+    margin-left: 15px;
+}
+.stick{
+    height: 100px;
+    width: 5px;
+    border: none;
+    background-color: #FF900E;
+}
+
+/* Category part */
+.category{
+    width: 585px;
+    height: 160px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px; 
+    margin-top: 20px;
+}
+.category-content {
+    padding: 10px;
+    margin-left: 10px;
+}
+
+
+
+/* Media Query */
+/* Mobile Device */
+@media screen and (min-width:200px) and (max-width:1024px) {
+    .header {
+        display: grid;
+        justify-items: center; 
+        row-gap: 10px;
+        flex-wrap: wrap;
+        overflow: hidden;
+    }
+    .banner-img img{  
+        width: 100%;   
+       
+    }
+    .banner-section {
+        text-align: center;
+    }
+    .features{
+        display: grid;
+        grid-template-columns: repeat(1 ,1fr);
+        grid-gap:10px ;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .feature-content{
+        margin-left: 10px;
+    }
+    .team-member{
+        display: grid;
+        grid-template-columns: repeat(1 ,1fr);
+        grid-gap:10px ;
+        width: 100%;
+    }
+    .team-member img{
+        width: 100%;
+    }
+    .category{
+        width: 100%;
+    }
+    .feature-part-two{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .feature-part-img img{
+        height: 100%;
+        width: 100%;
+    }
+    .overlay-button button{
+        width: 242px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0 ;
+        ;
+        
+    }
+}
+>>>>>>> de40c948eedf841f7a2fbe6e52762bffc33622cf
