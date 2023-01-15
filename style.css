@@ -100,15 +100,81 @@ body {
     grid-template-columns: repeat(2 ,1fr);
     grid-gap: 10px;
 }
-/* .team-member img{
-    padding: 5px;
-} */
+
+/* Site Feauture part Two */
+.feature-part-two{
+    margin-top: 100px;
+    margin-left: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 110px;
+}
+.feature-part-img{
+    display: flex;
+    flex-direction: column;
+}
+.feature-part-img img{
+    height: 85%;
+}
+.overlay-button button{
+    width: 342px;
+    height: 200px;
+    position: absolute;
+    margin-top: -240px;
+    margin-left: -50px;
+    background: #FF900E;
+    border-radius: 8px;
+    border: none;
+}
+.year{
+    font-weight: 700;
+    font-size: 50px;
+    color: #FFFFFF;
+}
+.experience{
+    font-weight: 500;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.feature-part-two p{
+    font-size: 12px;
+    color: gray;
+}
+
+ /* Loving feauture part */
+.loving-feature{
+    display: flex;
+    align-items: center;
+}
+.loving-feature-div h1{
+    margin-left: 15px;
+}
+.stick{
+    height: 100px;
+    width: 5px;
+    border: none;
+    background-color: #FF900E;
+}
+
+/* Category part */
+.category{
+    width: 585px;
+    height: 160px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px; 
+    margin-top: 20px;
+}
+.category-content {
+    padding: 10px;
+    margin-left: 10px;
+}
 
 
 
 /* Media Query */
 /* Mobile Device */
-@media screen and (min-width:200px) and (max-width:600px) {
+@media screen and (min-width:200px) and (max-width:1024px) {
     .header {
         display: grid;
         justify-items: center; 
@@ -131,13 +197,39 @@ body {
         display: flex;
         flex-direction: column-reverse;
     }
+    .feature-content{
+        margin-left: 10px;
+    }
     .team-member{
         display: grid;
         grid-template-columns: repeat(1 ,1fr);
         grid-gap:10px ;
+        width: 100%;
     }
     .team-member img{
         width: 100%;
     }
+    .category{
+        width: 100%;
+    }
+    .feature-part-two{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
 
+    .feature-part-img img{
+        height: 100%;
+        width: 100%;
+    }
+    .overlay-button button{
+        width: 242px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0 ;
+        ;
+        
+    }
 }
