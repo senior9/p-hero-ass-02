@@ -144,6 +144,11 @@ body {
     border-radius: 8px;
     border: none;
 }
+.overlay-button button:hover {
+    background-image:repeating-linear-gradient(to left,violet,indigo,blue,green,yellow,orange,red);
+    background-size:800% 800%;
+    animation:rainbow 8s ease infinite;
+}
 
 .year {
     font-weight: 700;
